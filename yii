@@ -11,7 +11,12 @@
 set_time_limit(0);
 @ini_set("memory_limit","1G");
 
-if (file_exists(__DIR__."/dev"))
+
+
+
+require(__DIR__ . '/vendor/autoload.php');
+
+if ($_ENV['debug'])
 {
     define('APPLICATION_ENV', 'dev');
 }
@@ -20,12 +25,10 @@ else
     define('APPLICATION_ENV', 'prod');
 }
 
-$env = require(__DIR__ . '/config/env.php');
-
-defined('YII_DEBUG') or define('YII_DEBUG', $env["debug"]);
+defined('YII_DEBUG') or define('YII_DEBUG', $_ENV["debug"]);
 defined('YII_ENV') or define('YII_ENV', APPLICATION_ENV);
-
-require(__DIR__ . '/vendor/autoload.php');
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
 
 $config = require(__DIR__ . '/config/console.php');

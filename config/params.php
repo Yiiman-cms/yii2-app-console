@@ -1,1 +1,4 @@
-<?php return require __DIR__ . '/env/' . APPLICATION_ENV . '/params.php';
+<?php
+return [
+    'adminEmail' => 'admin@example.com',
+];
