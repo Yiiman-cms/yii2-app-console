@@ -9,14 +9,14 @@
         "issues": "https://github.com/Yiiman-cms/yii2-app-console/issues?state=open",
         "source": "https://github.com/Yiiman-cms/yii2-app-console"
     },
-    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.5",
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-swiftmailer": "~2.0.0"
     },
     "require-dev": {
-        "yiisoft/yii2-gii": "~2.0.0"
+        "yidas/yii2-bower-asset": "2.0.13.1",
+        "yiisoft/yii2-gii": "2.2.4"
     },
     "config": {
         "process-timeout": 1800
