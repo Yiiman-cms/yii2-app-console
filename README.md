@@ -17,7 +17,7 @@ DIRECTORY STRUCTURE
 REQUIREMENTS
 ------------
 
-The minimum requirement by this project template that your Web server supports PHP 5.4.0.
+The minimum requirement by this project template that your Web server supports PHP 7.4.
 
 
 INSTALLATION
@@ -38,20 +38,14 @@ php composer.phar create-project --prefer-dist --stability=dev yiiman/yii2-app-c
 CONFIGURATION
 -------------
 
-### Database
+### Config DataBase
+Change `.env-example` name to `.env`
 
-Edit the file `config/db.php` with real data, for example:
+Edit the file `.env` with real data
 
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
-```
+## Use commands 
+Type `php yii` in console to see commands
 
-**NOTES:**
+
+**NOTE:**
 - Yii won't create the database for you, this has to be done manually before you can access it.
-- Check and edit the other files in the `config/` directory to customize your application as required.
