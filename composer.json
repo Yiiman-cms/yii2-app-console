@@ -1,13 +1,13 @@
 {
-    "name": "adlandh/yii2-app-console",
+    "name": "yiiman/yii2-app-console",
     "description": "Simple Yii 2 Console Project Template",
     "keywords": ["yii2", "framework", "console", "project template"],
     "homepage": "https://github.com/adlandh/yii2-app-console",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/adlandh/yii2-app-console/issues?state=open",
-        "source": "https://github.com/adlandh/yii2-app-console"
+        "issues": "https://github.com/Yiiman-cms/yii2-app-console/issues?state=open",
+        "source": "https://github.com/Yiiman-cms/yii2-app-console"
     },
     "minimum-stability": "stable",
     "require": {
