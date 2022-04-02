@@ -15,8 +15,9 @@ set_time_limit(0);
 
 
 require(__DIR__ . '/vendor/autoload.php');
-
-if ($_ENV['debug'])
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+if ($_ENV['DEBUG'])
 {
     define('APPLICATION_ENV', 'dev');
 }
@@ -25,10 +26,9 @@ else
     define('APPLICATION_ENV', 'prod');
 }
 
-defined('YII_DEBUG') or define('YII_DEBUG', $_ENV["debug"]);
+defined('YII_DEBUG') or define('YII_DEBUG', $_ENV["DEBUG"]);
 defined('YII_ENV') or define('YII_ENV', APPLICATION_ENV);
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+
 require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
 
 $config = require(__DIR__ . '/config/console.php');
