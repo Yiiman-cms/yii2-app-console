@@ -49,3 +49,7 @@ Type `php yii` in console to see commands
 
 **NOTE:**
 - Yii won't create the database for you, this has to be done manually before you can access it.
+
+## Learning and usage
+* [Learn on Yii framework site](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-console)
+* [Learn on youtube](https://www.youtube.com/watch?v=HG6omaMRx_k&list=PLAUvAGgAbomAF0cQ2ubwJYDJKFrmHREjm)
