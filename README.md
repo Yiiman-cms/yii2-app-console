@@ -53,3 +53,15 @@ Type `php yii` in console to see commands
 ## Learning and usage
 * [Learn on Yii framework site](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-console)
 * [Learn on youtube](https://www.youtube.com/watch?v=HG6omaMRx_k&list=PLAUvAGgAbomAF0cQ2ubwJYDJKFrmHREjm)
+ 
+### Lesson 1
+Install this project:
+[![Create console app with php](http://img.youtube.com/vi/HG6omaMRx_k/0.jpg)](http://www.youtube.com/watch?v=HG6omaMRx_k "Create console app with php")
+
+### Lesson 2
+Create first custom command on console:
+[![Create console app with php - custom command](http://img.youtube.com/vi/vVehKovWWwU/0.jpg)](http://www.youtube.com/watch?v=vVehKovWWwU "Create console app with php - custom command")
+
+### Lesson 3
+Crawl simple data from Github pages
+[![Create console app with php - Crawl simple data from Github pages](http://img.youtube.com/vi/lhCCfbslO1o/0.jpg)](http://www.youtube.com/watch?v=lhCCfbslO1o "Create console app with php - Crawl simple data from Github pages")
